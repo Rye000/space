@@ -1,0 +1,72 @@
+.bg {
+  background-color: black;
+  color: #ffffff;
+}
+.bgh1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 3rem;
+}
+.container {
+  width: 25%;
+}
+.project1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.project1h3 {
+  margin: 0;
+  margin-top: 5rem;
+}
+.project1btn {
+  width: 120px;
+  height: 30px;
+  background-color: #3c0f38;
+  color: #cccccc;
+}
+.project1btn :hover {
+  background-color: #620031;
+  color: #ffffff;
+}
+.containerbtn {
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+.project {
+  width: 75%;
+  margin: 0 auto;
+}
+.projecthr {
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .project1{
+    flex-direction: column;
+  }
+  .container {
+    width: 80%;
+  }
+  .project1h3 {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .containerbtn{
+    display: block;
+    text-align: center;
+  }
+  .bgh1{
+    margin-bottom: 3rem;
+  }
+  .projecthr{
+    width: 90%;
+  }
+}

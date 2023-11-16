@@ -1,0 +1,43 @@
+.imgtext{
+    color: #a3a3a3;
+    margin: 0;
+}
+.imgtext2{
+    color: #ffffff;
+    margin: 0;
+}
+
+.new2{
+    display: flex;
+    margin-top: 2rem;
+}
+.new2 img {
+    width: 100px;      
+    height: 90px;    
+    object-fit: cover; 
+    cursor: pointer;
+    
+}
+.new2 img:hover{
+    opacity: 0.8;
+}
+.newtext{
+    margin-left: 1rem;
+}
+
+.morebutton{
+    width: 120px;
+    height: 30px;
+    margin-top:4rem ;
+    background-color:#3c0f38 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cccccc;
+    cursor: pointer;
+}
+.morebutton:hover{
+    background-color:  #620031;
+    color: #ffffff;
+
+}

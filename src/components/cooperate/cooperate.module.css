@@ -1,0 +1,53 @@
+.bg {
+  background-color: black;
+}
+.contact {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.contacth1 {
+  margin: 0;
+}
+.contacth2 {
+  margin: 0;
+  margin-top: 2rem;
+}
+.inputwid {
+  max-width: 470px;
+  margin: 0 auto;
+}
+.inputField {
+  display: block;
+  margin: 30px auto;
+  width: 95%;
+  height: 43px;
+  line-height: 43px;
+  font-size: 20px;
+  background-color: #a3a3a3;
+  color: black;
+  border: 0;
+  padding-left: 20px;
+}
+.myTextarea {
+  width: 95%;
+  height: 43px;
+  height: 150px;
+  font-size: 20px;
+  background-color: #a3a3a3;
+  resize: none;
+  padding-left: 20px;
+}
+.mybutton {
+  display: block;
+  margin: 3rem auto;
+  padding: 10px 20px;
+  background-color: #3c0f38;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.mybutton:hover {
+  background-color: #620031;
+}

@@ -1,0 +1,14 @@
+.bg {
+  min-height: 170px;
+  background-color: #630031;
+}
+.bg h1,
+h4 {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.2rem;
+}
+a {
+  color: #ffffff;
+}

@@ -1,0 +1,23 @@
+.nasaul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+}
+.nasaimg img {
+  display: block;
+  width: 250px;
+  height: 160px;
+  cursor: pointer;
+}
+.nasaimg img:hover{
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .nasaul  {
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    padding-top:7rem ;
+    padding-bottom:7rem ;
+  }
+}

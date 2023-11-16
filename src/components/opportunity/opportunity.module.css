@@ -1,0 +1,52 @@
+.bg2 {
+  background-color: #630031;
+}
+.bg2h1 {
+  margin: 0;
+  color: #cccccc;
+  font-family: "Noto Sans HK", sans-serif;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.bg2div {
+  width: 30%;
+}
+.bg2div p {
+  color: #ffffff;
+}
+.bg2img {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  cursor: pointer;
+}
+.bg2img img:hover {
+  opacity: 0.8;
+}
+.bg2span {
+  color: #cccccc;
+}
+.bg3 {
+  background-color: black;
+}
+@media (max-width: 768px) {
+  .container{
+    padding: 1rem;
+  }
+  .container2{
+    flex-direction: column;
+  }
+  .bg2div{
+    width: 90%;
+  }
+  .bg2img{
+    order: -1;
+  }
+  .bg2h1{
+    text-align: center;
+  }
+}

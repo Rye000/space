@@ -1,0 +1,85 @@
+.bg {
+  background-image: url(/public/img/Mars.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  text-align: center;
+  padding: 5rem;
+}
+
+.abouth1 {
+  margin: 0;
+  color: #581d1d;
+  font-family: "Noto Sans HK", sans-serif;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+.abouth2 {
+  margin: 0;
+  margin-top: 3rem;
+  color: #581d1d;
+  font-family: "Noto Sans HK", sans-serif;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+.aboutp {
+  margin: 0;
+  margin-top: 3rem;
+  color: #581d1d;
+  font-family: "Noto Sans HK", sans-serif;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+  font-size: 22px;
+}
+.bg2 {
+  background-color: #630031;
+}
+.bg2h1 {
+  margin: 0;
+  color: #cccccc;
+  font-family: "Noto Sans HK", sans-serif;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.bg2div {
+  width: 30%;
+}
+.bg2div p {
+  color: #ffffff;
+}
+.bg2img {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.bg2span {
+  color: #cccccc;
+}
+.bg3 {
+  background-color: black;
+}
+.bg2img img {
+  cursor: pointer;
+}
+.bg2img img:hover {
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .container{
+    padding: 1rem;
+  }
+  .container2{
+    flex-direction: column;
+  }
+  .bg2div{
+    width: 90%;
+  }
+  .bg2img{
+    order: -1;
+  }
+  .bg2h1{
+    text-align: center;
+  }
+}
