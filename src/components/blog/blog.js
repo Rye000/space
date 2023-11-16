@@ -11,9 +11,11 @@ export default function Blog() {
             <div className={`col`}></div>
             <div className={` col-12  col-xl-8  `}>
               <div className={`row`}>
-             
                 <div className={` col-12  col-xl-8  ${styles.text1}`}>
-                  <img src="/img/astronaut.jpg" alt="nasa" />
+                  <img
+                    src={`${process.env.PUBLIC_URL}/img/astronaut.jpg`}
+                    alt="nasa"
+                  />
                   <h3 className={styles.blogh3}>
                     THIS IS JUST A PLACE HOLDER.
                   </h3>
@@ -28,7 +30,10 @@ export default function Blog() {
                   </div>
                   <hr />
                   {/*  */}
-                  <img src="/img/satellite-dish.jpg" alt="nasa" />
+                  <img
+                    src={`${process.env.PUBLIC_URL}/img/satellite-dish.jpg`}
+                    alt="nasa"
+                  />
                   <h3 className={styles.blogh3}>
                     THIS IS JUST A PLACE HOLDER.
                   </h3>
@@ -44,13 +49,19 @@ export default function Blog() {
                 </div>
                 <div className={` col-xl-4 ${styles.text2}`}>
                   <h3 className={styles.chosen}>FEATURED POSTS</h3>
-                  <img src="/img/moon-satellite.jpg" alt="nasa" />
+                  <img
+                    src={`${process.env.PUBLIC_URL}/img/moon-satellite.jpg`}
+                    alt="nasa"
+                  />
                   <h3 className={styles.recent2}>SOYUZ TMA-M</h3>
                   <span className={styles.chosenspan}>FEBRUARY 1, 2023</span>
                   <hr />
                   <h2 className={styles.recent}>RECENT POSTS</h2>
                   <div className={styles.chosen2}>
-                    <img src="img/alien-life.jpg" alt="nasa" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/img/alien-life.jpg`}
+                      alt="nasa"
+                    />
                     <div>
                       <h2 className={styles.chosen2h2}>ALIEN LIFE</h2>
                       <span className={styles.chosenspan}>
@@ -60,7 +71,10 @@ export default function Blog() {
                   </div>
                   <hr />
                   <div className={styles.chosen2}>
-                    <img src="img/galaxy.jpg" alt="nasa" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/img/galaxy.jpg`}
+                      alt="nasa"
+                    />
                     <div>
                       <h2 className={styles.chosen2h2}>THE GALAXY</h2>
                       <span className={styles.chosenspan}>

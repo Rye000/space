@@ -23,7 +23,7 @@ export default function Home() {
       <div className={styles.bg}>
         <div className={styles.container}>
           <div className={styles.spaceimg}>
-            <img src="img/satellite.png" alt="nasa" />
+            <img src={`${process.env.PUBLIC_URL}/img/satellite.png`} alt="nasa" />
             <div className={styles.spacerwd}>
               <h3 className={styles.spaceh3}>SOYUZ TMA-M</h3>
               <h2 className={styles.spaceh2}>太空船</h2>

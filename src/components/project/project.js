@@ -8,7 +8,10 @@ export default function Project() {
         <h1 className={styles.bgh1}>專案</h1>
 
         <div className={styles.project1}>
-          <img src="img/curious-rover.jpg" alt="nasa" />
+          <img
+            src={`${process.env.PUBLIC_URL}/img/curious-rover.jpg`}
+            alt="nasa"
+          />
           <div className={styles.container}>
             <h3 className={styles.project1h3}>火星計畫</h3>
             <p>
@@ -24,7 +27,10 @@ export default function Project() {
         <hr className={styles.projecthr} />
 
         <div className={styles.project1}>
-          <img src="img/space-station.jpg" alt="nasa" />
+          <img
+            src={`${process.env.PUBLIC_URL}/img/space-station.jpg`}
+            alt="nasa"
+          />
           <div className={styles.container}>
             <h3 className={styles.project1h3}>火星計畫</h3>
             <p>
